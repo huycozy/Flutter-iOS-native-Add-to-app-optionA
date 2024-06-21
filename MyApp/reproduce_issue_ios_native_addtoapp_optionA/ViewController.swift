@@ -44,12 +44,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func openFlutterButtonClick(_ sender: Any) {
-        if let flutterEngine = (UIApplication.shared.delegate as? AppDelegate)?.flutterEngine {
-            let flutterViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
-//            self.present(flutterViewController, animated: false, completion: nil)
-            self.navigationController?.pushViewController(flutterViewController, animated: true)
-            print("done")
-        }
+        let flutterEngine = FlutterEngine(name: "my flutter engine")
+        flutterEngine.run();
+        let flutterViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
+        self.navigationController?.pushViewController(flutterViewController, animated: true)
     }
 }
 
