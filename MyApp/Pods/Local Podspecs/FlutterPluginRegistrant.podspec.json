@@ -28,6 +28,9 @@
   "dependencies": {
     "Flutter": [
 
+    ],
+    "in_app_purchase_storekit": [
+
     ]
   }
 }

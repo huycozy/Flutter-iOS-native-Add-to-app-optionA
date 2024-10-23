@@ -2,20 +2,28 @@ PODS:
   - Flutter (1.0.0)
   - FlutterPluginRegistrant (0.0.1):
     - Flutter
+    - in_app_purchase_storekit
+  - in_app_purchase_storekit (0.0.1):
+    - Flutter
+    - FlutterMacOS
 
 DEPENDENCIES:
   - Flutter (from `../my_flutter/.ios/Flutter`)
   - FlutterPluginRegistrant (from `../my_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - in_app_purchase_storekit (from `../my_flutter/.ios/.symlinks/plugins/in_app_purchase_storekit/darwin`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: "../my_flutter/.ios/Flutter"
   FlutterPluginRegistrant:
     :path: "../my_flutter/.ios/Flutter/FlutterPluginRegistrant"
+  in_app_purchase_storekit:
+    :path: "../my_flutter/.ios/.symlinks/plugins/in_app_purchase_storekit/darwin"
 
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  FlutterPluginRegistrant: 0b732256b4829f9783c18c68e2f9adacc1536955
+  FlutterPluginRegistrant: 32dfeae95c014ec0176f710c2e85684b0633d52b
+  in_app_purchase_storekit: 8c3b0b3eb1b0f04efbff401c3de6266d4258d433
 
 PODFILE CHECKSUM: 485d4448ec0dd0ff7f55182bf03605374b402443
 
